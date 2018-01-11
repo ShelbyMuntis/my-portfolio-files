@@ -1,0 +1,278 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/***** BASE STYLES *****/
+
+
+.body{
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#header {
+    height: 725px;
+	width: 1280px;
+}
+
+#about {
+    height: 725px;
+	width: 1280px;
+	background-color: #aac7e2; 
+}
+
+#skills {
+	height: 725px;
+	width: 1280px;
+	background-color: #d1e4f7; 
+	text-align:center;
+}
+
+#contact {
+	height: 725px; 
+	width: 1280px;
+	background-color: #aac7e2; 
+	overflow: hidden; 
+}
+/***** GRID *****/
+
+.full-width {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.right-half-width {
+    width: 650px;
+    float: right;
+    margin: 0 auto;
+}
+
+.left-half-width {
+    width: 650px;
+    float: left;
+    margin: 0 auto;
+}
+
+.left-third-width {
+    width: 433px;
+    float: left;
+    overflow: hidden;
+    margin-top: 110px; 
+    margin-right: 40px; 
+    margin-bottom: 50px; 
+    margin-left: 5px;  
+    position: absolute;
+}
+
+.third-width {
+	width: 433px; 
+	float: center;
+    margin-top: 110px; 
+    margin-right: 40px; 
+    margin-bottom: 50px; 
+    margin-left: 420px;  
+    position: absolute;
+}
+
+.right-third-width {
+    float: right;
+    margin-top: 110px; 
+    margin-right: 40px; 
+    margin-bottom: 50px; 
+    margin-left: 910px;  
+    position: absolute;
+
+}
+
+/***** HEADER *****/
+
+header {
+	width: 1280px;
+    height: 725px;
+    background: url('../img/hero.png');
+    background-size: cover;
+}
+
+.header img {
+  float: left;
+  width: 100px;
+  height: 65px;
+  margin-left: 10px; 
+  margin-top: 10px; 
+}
+
+.header h1 {
+	font-family: 'Assistant', sans-serif;
+	font-size: 55px;
+    color: #000000;
+    clear: both; 
+    font-weight: lighter;
+    float: left;
+    margin-left: 20px; 
+}
+
+.header h1 span {
+	font-family: 'Sacramento', cursive;
+	font-size: 110px; 
+}
+
+nav {
+    float: right; 
+    margin-right: 10px; 
+    margin-top: 3px; 
+}
+
+nav ul li {
+    display: inline-block;
+    font-family: 'Assistant', sans-serif;
+    font-size: 28px;
+    padding-left: 10px;
+}
+
+
+/***** ABOUT *****/
+
+#about .full-width { 
+	margin: 0 auto; 
+	padding-left: 50px;  
+ }
+
+ #about h2 {
+ 	font-family: 'Assistant', sans-serif;
+ 	font-size: 70px;
+ 	font-weight: lighter;
+ 	float: left;
+ 	margin-top: 78px; 
+ 	margin-left: 10px; 
+ }
+
+ #about p {
+ 	font-family: 'Open Sans Condensed', sans-serif;
+ 	font-size: 30px;
+ 	float: left;
+ 	margin-top: -25px; 
+ 	margin-left: 10px; 
+ }
+
+ #about .right-half-width img {
+ 	float: right; 
+ 	width: 400px;
+ 	height: 400px;
+ 	margin-top: -490px; 
+ 	margin-right: 110px;  
+ 
+ }
+
+
+/***** SKILLS *****/
+
+#skills {
+    background-color: #d1e4f7;
+    text-align:center;
+}
+
+#skills .full-width {
+    padding: 25px 0;
+}
+
+#skills .full-width h2 {
+	font-family: 'Sacramento', cursive;
+	font-size: 95px; 
+	text-align: center;
+	font-weight: lighter;
+	line-height: 0px; 
+	margin-top: 80px;
+	margin-bottom: 0px; 
+}
+ 
+#skills img {
+    padding-bottom: 30px;
+}
+
+#skills h4 {
+    font-family: 'Assistant', sans-serif;
+    font-size: 22px;
+    font-weight: bolder;
+    text-decoration: underline;
+    line-height: 22px; 
+    width: 250px;
+    margin: 0 auto;
+}
+ 
+#skills p {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 22px;
+    line-height: 15px;
+    color: #2b2b2b;
+    padding: 0 35px;
+}
+
+/***** CONTACT *****/
+
+
+#contact h2 {
+	font-family: 'Assistant', sans-serif;
+	font-size: 90px;
+	color: #25354f; 
+	text-align: center;
+	font-weight: lighter; 
+	margin-top: 10px; 
+}
+
+#contact h3 {
+	font-family: 'Sacramento', cursive;
+	font-size: 65px; 
+	color: #25354f;
+	text-align: center;
+	line-height:0%;
+	font-weight: lighter;
+}
+
+#contact h4 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 55px; 
+	color: #081c34;
+	text-align: center;
+	line-height:70%;
+	font-weight: lighter;
+	margin-top: -350px; 
+}
+
+#contact h4 span {
+	font-family: 'Sacramento', cursive;
+	font-size: 70px;
+	font-weight: lighter;
+}
+
+#contact img {
+	padding: 10px 20px 15px 30px; 
+	height: 400px; 
+	width: 550px; 
+	margin-top: 15px;
+}
+
+#contact .icons img {
+	display: inline-block;
+	padding-left: 46px; 
+	height: 60px;  
+	width: 60px;
+	margin-top: -40px; 
+	margin-left: 60px; 
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
